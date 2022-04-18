@@ -7,4 +7,5 @@ Otherwise, you will have to recreate your own data model. Here's an screenshot o
 
 
 And here's a screenshot from the app. (totally want to show more but the files are too big..oops. It's just for demonstration tho. should be fine.)
+
 <img width="146" alt="RocketSim_Screenshot_iPhone_12_2022-04-18_10 01 30" src="https://user-images.githubusercontent.com/51900885/163743162-d08dde70-51ab-48a6-a923-470a992ff361.png">
