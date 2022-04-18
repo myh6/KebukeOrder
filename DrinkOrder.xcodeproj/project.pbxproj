@@ -35,8 +35,6 @@
 		0F6F91CF28066FF700325091 /* ViewOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91CE28066FF700325091 /* ViewOrderView.swift */; };
 		0F6F91D1280677C800325091 /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91D0280677C800325091 /* DateUtility.swift */; };
 		0F6F91D32807225600325091 /* CustomizeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91D22807225600325091 /* CustomizeTextField.swift */; };
-		0F6F91D52807250500325091 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F6F91D42807250500325091 /* Keys.plist */; };
-		0F6F91D728072FD800325091 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91D628072FD800325091 /* OrderModel.swift */; };
 		0F6F91DD28087D5700325091 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91DC28087D5700325091 /* LoginButton.swift */; };
 		0F6F91DF2808897900325091 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91DE2808897900325091 /* Customer.swift */; };
 		0F6F91E1280941D400325091 /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91E0280941D400325091 /* NewGroupViewController.swift */; };
@@ -44,7 +42,6 @@
 		0F6F91E9280B18BC00325091 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91E8280B18BC00325091 /* ListViewController.swift */; };
 		0F6F91EF280B2CBC00325091 /* ListForGroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91EE280B2CBC00325091 /* ListForGroupTableViewCell.swift */; };
 		0F6F91F3280C5C7500325091 /* AirDrinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91F2280C5C7400325091 /* AirDrinksModel.swift */; };
-		0F6F91F5280C681500325091 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F91F4280C681500325091 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,8 +94,6 @@
 		0F6F91CE28066FF700325091 /* ViewOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOrderView.swift; sourceTree = "<group>"; };
 		0F6F91D0280677C800325091 /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
 		0F6F91D22807225600325091 /* CustomizeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeTextField.swift; sourceTree = "<group>"; };
-		0F6F91D42807250500325091 /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
-		0F6F91D628072FD800325091 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		0F6F91DC28087D5700325091 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		0F6F91DE2808897900325091 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		0F6F91E0280941D400325091 /* NewGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +101,6 @@
 		0F6F91E8280B18BC00325091 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		0F6F91EE280B2CBC00325091 /* ListForGroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListForGroupTableViewCell.swift; sourceTree = "<group>"; };
 		0F6F91F2280C5C7400325091 /* AirDrinksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirDrinksModel.swift; sourceTree = "<group>"; };
-		0F6F91F4280C681500325091 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +161,6 @@
 				0F6F91712801C0CB00325091 /* Assets.xcassets */,
 				0F6F91732801C0CB00325091 /* LaunchScreen.storyboard */,
 				0F6F91762801C0CB00325091 /* Info.plist */,
-				0F6F91D42807250500325091 /* Keys.plist */,
 				0F6F916E2801C0C900325091 /* DrinkOrder.xcdatamodeld */,
 			);
 			path = DrinkOrder;
@@ -208,7 +201,6 @@
 				0F6F91A52801E5E400325091 /* Drinks.swift */,
 				0F6F91B82803D95B00325091 /* DrinksDetail.swift */,
 				0F6F91C82805CF1400325091 /* TempOrder.swift */,
-				0F6F91D628072FD800325091 /* OrderModel.swift */,
 				0F6F91DE2808897900325091 /* Customer.swift */,
 				0F6F91F2280C5C7400325091 /* AirDrinksModel.swift */,
 			);
@@ -234,7 +226,6 @@
 				0F6F919D2801C3C300325091 /* Extensions.swift */,
 				0F6F91CA2805DB3F00325091 /* APIService.swift */,
 				0F6F91D0280677C800325091 /* DateUtility.swift */,
-				0F6F91F4280C681500325091 /* NetworkError.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -386,7 +377,6 @@
 				0F6F91A42801E23000325091 /* Drinks.plist in Resources */,
 				0F6F91722801C0CB00325091 /* Assets.xcassets in Resources */,
 				0F6F916D2801C0C900325091 /* Main.storyboard in Resources */,
-				0F6F91D52807250500325091 /* Keys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,13 +410,11 @@
 				0F6F91CF28066FF700325091 /* ViewOrderView.swift in Sources */,
 				0F6F91CD2805DB9800325091 /* LoginViewController.swift in Sources */,
 				0F6F91D32807225600325091 /* CustomizeTextField.swift in Sources */,
-				0F6F91F5280C681500325091 /* NetworkError.swift in Sources */,
 				0F6F91AA2801F7B300325091 /* GoCheckOutButton.swift in Sources */,
 				0F6F916A2801C0C900325091 /* MainViewController.swift in Sources */,
 				0F6F91B02802034E00325091 /* SendOrderButton.swift in Sources */,
 				0F6F91E7280B026500325091 /* ShadowsImageButton.swift in Sources */,
 				0F6F91B22802D9B800325091 /* DrinksMenuTableViewCell.swift in Sources */,
-				0F6F91D728072FD800325091 /* OrderModel.swift in Sources */,
 				0F6F91D1280677C800325091 /* DateUtility.swift in Sources */,
 				0F6F91B72803D44700325091 /* MenuDetailViewController.swift in Sources */,
 				0F6F91E1280941D400325091 /* NewGroupViewController.swift in Sources */,

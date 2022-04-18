@@ -50,8 +50,7 @@ class LoginViewController: UIViewController {
 //        self.pickerView.reloadAllComponents()
 //      }
 //    }
-    let key = APIService.shared.getAPIKey()
-    print("DEBUG: apiKey \(key)")
+
     APIService.shared.getListOfGroupsFromAir(completion: { data in
       self.newGroups = data.uniqued()
       print("DEBUG: groups \(self.newGroups!)")
