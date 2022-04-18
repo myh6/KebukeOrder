@@ -1,6 +1,6 @@
 # KebukeOrder
 
-This here is the final assignment for Peter's swift class. It's an app that help student in his class to order drink and post their orders to Airtable API.
+This here is the final assignment for Peter's swift class. It's an app that help students in his class to order drink and post their orders to Airtable.
 I made this app within 4 days or so without a stroyboard ,so the UI probably isn't the best. If you still want to download it and give it a shot, you should know that you need to have an Airtable API and an exact Airtable columns' name as mine to make this project work.
 Otherwise, you will have to recreate your own data model. Here's an screenshot of my Airtable data!
 <img width="1504" alt="Screen Shot 2022-04-18 at 10 03 35 AM" src="https://user-images.githubusercontent.com/51900885/163743223-ce5d7a0b-f8c6-41f1-93b1-2362b5de39e0.png">
