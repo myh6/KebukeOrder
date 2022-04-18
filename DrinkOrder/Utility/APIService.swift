@@ -11,7 +11,7 @@ class APIService {
   static let shared = APIService()
   //AirTable
   private let baseAirURL = "https://api.airtable.com/v0/appUH1c6BD5hCJuCJ/tblAAZcfEvvAOToqg"
-  fileprivate let apiAirKey = "keyrUxEFB5MHFlToK"
+  fileprivate let apiAirKey = "YOUR API KEY"
 
     /**you can also store your API key in a plist and use this function to retrive it.**/
 //  func getAPIKey() -> String? {
