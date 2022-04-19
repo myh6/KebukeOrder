@@ -212,7 +212,7 @@ extension ListViewController: UITableViewDelegate, UITableViewDataSource {
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath) as! ListForGroupTableViewCell
     let target = groupDetail[indexPath.row]
-    cell.drinkNameLabel.text = "\(target.fields.name)\(target.fields.drink)x\(target.fields.number)"
+    cell.drinkNameLabel.text = "\(target.fields.name) \(target.fields.drink)x\(target.fields.number)"
     cell.drinkPrice.text = "$ \(target.fields.totalPrice)"
     cell.drinkImage.image = UIImage(named: "\(target.fields.drink)cup") ?? #imageLiteral(resourceName: "胭脂多多cup")
     if target.fields.addWhitePearl == true && target.fields.addWaterPearl == true {
